@@ -1,0 +1,9 @@
+[project]
+name = "upguard"
+version = "0.1.0"
+description = "Avatar upload validation guard"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
